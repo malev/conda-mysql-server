@@ -1,0 +1,20 @@
+package:
+  name: mysql
+  version: 5.6.26
+
+source:
+  fn: mysql-5.6.26.tar.gz
+  url: http://dev.mysql.com/get/Downloads/MySQL-5.6/mysql-5.6.26.tar.gz
+
+build:
+  number: 0
+
+requirements:
+  build:
+    - cmake
+    - system [linux]
+
+about:
+  home: http://www.mysql.com
+  license: GPL
+
